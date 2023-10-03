@@ -106,15 +106,6 @@ img.icons_recherche{
 
 }
 
-.Bouton_recherche_defaut{
-    background-image:url(Image/Header/logo_loupe.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 20px;
-    padding-right: 40px ;
-
-}
-
 input {
 
     border-radius: 5px;
@@ -122,4 +113,3 @@ input {
     height: 20px;
 
 }
-
