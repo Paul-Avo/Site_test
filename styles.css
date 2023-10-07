@@ -22,8 +22,7 @@ header ul {
     background-color:black;
     position: sticky;
     top:0;
-    width: 100%;
-    padding-left: 10px;  
+    width: 100%; 
     
 }
 
@@ -216,14 +215,45 @@ img.icons_recherche{
 */
 
 
-.main {
-    display: block;
-    width:auto;
-    height: 700px;
-    margin: 0 15%;
+@media screen and (min-width: 1000px) {
+    .main {
+        display: block;
+        width:auto;
+        height:fit-content;
+        margin: 0 20%;   
+    }
+    .article {
 
+        justify-content: space-around;
+        margin: 0% 10% 0% 10%;
+        
+    
+    }
+    
+  }
+  @media screen and (max-width: 1000px) {
+    .main {
+        display: block;
+        width:auto;
+        height:fit-content;
+        margin: 0 12%;   
+    }
+    .article {
 
-}
+        justify-content: space-around;
+        margin: 0% 4% 0% 4%;
+        
+    
+    }
+
+  }
+
+  .intro_article p{
+
+    text-indent: 20px;
+
+  }
+
 
 .baniere {
     margin-top: 5%;
@@ -247,26 +277,29 @@ img.icons_recherche{
 
     display: flex ;
     float: right ;
+    padding-top: 10px;
 
 }
 
 .partage_article p{
 
-    color: rgba(122 128 144 / 1);
+    color: rgb(149, 154, 168);
     text-decoration: none;
+    font-size: 0.8em;
 
 }
 
 .navigation_article {
 
-    margin: 20px 10px 10px 20px;
+    margin: 5px 10px 10px 20px;
 
 }
 
 .navigation_article a {
 
-    color: rgba(28, 29, 34, 0.8);
+    color: rgba(28, 29, 34, 0.7);
     text-decoration: none;
+    font-size: 0.8em;
 
 }
 
@@ -291,13 +324,6 @@ img.icons_recherche{
 
 }
 
-.article {
-
-    justify-content: space-around;
-    margin: 0% 5% 0% 5%;
-    
-
-}
 
 .logoreseau_main img{
 
@@ -305,16 +331,49 @@ img.icons_recherche{
 
 }
 
-.crea_date {
-    height: 13px;
+.Titre {
+
+    height:55px;
+
+}
+
+.Titre h1{
+
+    margin-top: 10px;
+
+}
+
+.crea_date{
+
+    display: flex;
+
+}
+
+.crea_date p{
+
+    margin:0;
+    color: rgba(28, 29, 34, 0.6);
+    font-size: 0.85em;
+
+
 }
 
 .separateur_nom_crea{
 
     width: 0px;
     height: 10px;
-    outline:1px dotted black;
-    margin: 0px 5px 0px 5px;
+    outline:1px dashed rgba(104, 88, 88, 0.6);
+    margin: 3px 10px 0px 10px;
+
+}
+
+.separateur_ident_intro {
+
+    width: 60px;
+    height: 1px;
+    outline: 1px solid rgba(7, 7, 7, 0.6);
+    margin: 20px 0px 20px 20px;
+    background-color: black
 
 }
 
@@ -325,6 +384,149 @@ img.icons_recherche{
     align-items: left;
 
 }
+
+.intro_article h3{
+
+    color: rgba(7, 7, 7, 0.7);
+    margin-bottom: 20px;
+    font-size: 1.2em;
+
+}
+
+.intro_article p{
+
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0;
+
+}
+
+.temps_date_article{
+
+    display: flex ;
+    align-items: center;
+    font-size: 0.8em;
+    color: rgba(104, 88, 88, 0.7);
+    margin: 0;
+    padding: 0;
+}
+
+.separateur_date_temps {
+
+    width: 0px;
+    height: 10px;
+    outline:1px dashed rgba(104, 88, 88, 0.6);
+    margin: 0px 5px 0px 15px;
+
+
+}
+
+.image_article {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 10px;
+    padding: 0;
+    height: auto;
+}
+
+.image_article p {
+
+    font-size: 0.8em;
+    color: rgba(5, 5, 5, 0.7);
+    margin: 0;
+    font-style: italic;
+    text-align: left;
+    margin: 5px;
+}
+
+.premier_paragraphe {
+
+    color: rgb(45, 124, 98);
+
+}
+
+.main_article {
+
+    margin: 5px 9%;
+
+}
+
+.main_article p{
+
+    font-size: 1.15em;
+    width: auto;
+    text-align: justify;
+    text-indent: 20px;
+
+}
+
+.main_article h3{
+
+    font-size: 1.4em;
+    color: rgba(74, 163, 134, 0.8);
+}
+
+.lire_aussi h2{
+
+    margin: 60px 10px 30px;
+
+}
+
+.box_articles{
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.box {
+
+    height: auto ;
+    width: 22.5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(51, 51, 51, 0.548);
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+
+}
+
+.box img{
+
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0% 0%;
+
+}
+
+.box p{
+
+    font-size: 0.8em;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.box h3{
+
+    display: table-cell;
+    vertical-align:middle;
+    font-weight: bold;
+    font-size: 0.95em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(46, 68, 63, 0.6);
+    height: 100px;
+    padding: 1px 2px 1px 2px;
+
+}
+
+
+
+
+
 
 
 /*/////////////////////////////////////////////////////////////////////////////
@@ -516,8 +718,11 @@ footer .copyright {
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align: center;
     justify-content: space-around;
     color: rgba(255, 255, 255, 0.8);
+    width: auto;
+    margin : 0% 10%
 }
 
 .copyright a {
