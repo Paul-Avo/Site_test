@@ -195,7 +195,7 @@ div.bloc_header1 {
 div.bloc_header2 {
     display: block;
     width: 100%;
-    height: 50px;
+    height: fit-content;
 }
 div.barre_de_recherche {
 
@@ -932,3 +932,135 @@ footer .copyright a:active {
 
 }
 
+/*page principale /////////////////////////////////////////////////////////////////
+*/
+
+.presentation_vid{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;   
+    background: linear-gradient(90deg, #aa9dc2,rgba(46, 139, 86, 0.795)) ;
+    padding: 3% 0% 3% 0%;
+
+}
+
+.presentation_vid video{
+
+    border-radius: 10px;
+
+}
+
+@media screen and (min-width: 1300px) {
+    .main_page_principale{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width:auto;
+        height:fit-content;
+        margin: 0 20%;   
+        
+    }
+    
+  }
+  @media screen and (max-width: 1300px) {
+    .main_page_principale {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width:auto;
+        height:fit-content;
+        margin: 0% 12%;   
+
+    }
+    .article {
+
+        justify-content: space-around;
+        margin: 0% 4% 0% 4%;
+        
+    
+    }
+
+  }
+
+.main_page_principale .presentation_video{
+
+    width: auto;
+    margin: 50px;
+    background-color: aqua;
+
+
+}
+
+.box_articles_page_principale{
+
+display: flex;
+flex-direction: row;
+text-align: center;
+justify-content: space-between;
+width: 100%;
+margin-bottom: 50px;
+
+}
+
+.box_offres_page_principale{
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+.box_offres {
+
+    height: auto ;
+    width: 22.5%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(51, 51, 51, 0.548);
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+
+}
+
+.box_offres img{
+
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0% 0%;
+
+}
+
+.box_offres p{
+
+    font-size: 0.8em;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.box_offres h3{
+
+    display: table-cell;
+    vertical-align:middle;
+    font-weight: bold;
+    font-size: 0.95em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(46, 68, 63, 0.6);
+    height: 100px;
+    padding: 1px 2px 1px 2px;
+
+}
+.box_offres:hover{
+
+    background-color: rgb(233, 233, 233);
+    width: 24%;
+    box-shadow: 2px 2px 2px 2px rgba(43, 112, 89, 0.548);
+    opacity: 0.9;
+
+}
