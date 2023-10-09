@@ -163,7 +163,7 @@ img.bouton_connexion {
 
 img {
 
-    max-width: 500px;
+    max-width: 800px;
 
 }
 
@@ -938,12 +938,52 @@ footer .copyright a:active {
 .presentation_vid{
 
     display: flex;
-    flex-direction: column;
+    flex-direction: co;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
     margin: 0;   
     background: linear-gradient(90deg, #aa9dc2,rgba(46, 139, 86, 0.795)) ;
     padding: 3% 0% 3% 0%;
+
+}
+
+.image_baniere {
+    
+    
+    background-image: url("Image/banière_page_principale/xiaomi-m365-noir-et-blanc.png");
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+    width: 600px;
+    height: 500px;
+    border-radius: 00px;   
+        
+}
+
+.image_baniere h2{
+
+    font-size: 6em;
+    color: white;
+    padding-top:9%;
+    text-shadow: 8px 8px 8px black;
+
+}
+
+.image_banière{
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.presentation_vid img{
+
+    width: 100% ;
+    margin-top: 230px;
+    size: cover;
+
 
 }
 
