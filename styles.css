@@ -1031,11 +1031,17 @@ footer .copyright a:active {
 
     width: auto;
     margin: 50px;
-    background-color: aqua;
 
 
 }
 
+.les_dernières_offres{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
 
 
 
@@ -1046,7 +1052,7 @@ footer .copyright a:active {
     text-align: center;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 50px;
+    margin-top: 7px;
 }
 
 
@@ -1178,6 +1184,7 @@ footer .copyright a:active {
     
 
   }
+
   @media screen and (max-width: 1000px) {
     
     .prix_neuf {
@@ -1206,13 +1213,6 @@ footer .copyright a:active {
 
 
 
-
-
-
-
-
-
-
 .box_offres img{
 
     width: 100%;
@@ -1231,6 +1231,220 @@ footer .copyright a:active {
     width: 100%;
     margin-bottom: 50px;
 }
+
+.box_actu_premiere a{
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    height: auto ;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 3px rgba(51, 51, 51, 0.548);
+    background-color: rgb(248, 248, 248);
+    margin: 15px 15px 15px 0px;
+
+
+}
+
+
+
+@media screen and (min-width: 1400px) {
+    
+    .box_actu_premiere .bouton_article{
+
+        margin: 0;
+        border: 1px dotted ;
+        border-radius: 20px;
+        padding:0px 15px;
+        background-color: rgb(72, 150, 106);
+        width: 30%;
+        margin: 5%;
+    
+    
+    }
+
+    .box_actu_premiere .bouton_article p{
+
+        color: rgb(248, 248, 248);
+        width: auto;
+        margin: 10% 0%;
+        height: 15px;
+        width: 100%;
+        text-indent: 0px;
+        text-align: center;
+    
+    }
+
+    .box_actu_premiere p{
+
+        font-size: 1.2em;
+        font-family:Arial, Helvetica, sans-serif;
+        color: rgb(25, 37, 35, 0.9);
+        text-align: justify ;
+        text-indent: 15px;
+        margin: 5%;
+        margin-top: 40px;
+    
+        
+    }
+
+    .box_actu_premiere .gauche{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-image: url("Image/trot1.jpg");
+        background-position:40%;
+        background-size:cover;
+        width: 100%;
+        height:250px;
+        border-radius: 20px; 
+        margin: 20px; 
+
+
+    }
+
+    .box_actu_premiere h3{
+
+        font-weight: bold;
+        font-size: 1.4em;
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: whitesmoke ;
+        padding: 2%;
+        margin-top: 25%;
+         
+
+    }
+    
+    
+    
+  }
+  @media screen and (max-width: 1400px) {
+    
+    .box_actu_premiere .bouton_article{
+
+        margin: 0;
+        border: 1px dotted ;
+        border-radius: 20px;
+        padding:0px 15px;
+        background-color: rgb(72, 150, 106);
+        width: 30%;
+        margin: 5%;
+    
+    
+    }
+
+    .box_actu_premiere .bouton_article p{
+
+        color: rgb(248, 248, 248);
+        width: auto;
+        margin: 10% 0%;
+        height: 15px;
+        width: 100%;
+        text-indent: 0px;
+        text-align: center;
+    
+    }
+
+    .box_actu_premiere p{
+
+        font-size: 1em;
+        font-family:Arial, Helvetica, sans-serif;
+        color: rgb(25, 37, 35, 0.9);
+        text-align: justify ;
+        text-indent: 15px;
+        margin: 5%;
+        margin-top: 40px;
+    
+        
+    }
+
+    .box_actu_premiere .gauche{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-image: url("Image/trot1.jpg");
+        background-position:40%;
+        background-size:cover;
+        width: 100%;
+        height:250px;
+        border-radius: 20px; 
+        margin: 20px; 
+
+
+    }
+
+    .box_actu_premiere h3{
+
+        font-weight: bold;
+        font-size: 1.3em;
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: whitesmoke ;
+        padding: 2%;
+        margin-top: 40%;
+         
+
+    }
+    
+  }
+
+.separateur_actu_premiere{
+
+    margin: 0;
+    width: 70%;
+    height: 0px;
+    border: 1px dashed rgb(149, 154, 168,0.6)
+
+}
+
+
+.box_actu_premiere .bouton_article:hover{
+
+    
+    background-color:#7952c0d7;
+
+}
+
+.box_actu_premiere .droite {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.box_actu_premiere img{
+
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 20px ;
+
+}
+
+
+
+
+
+
+.box_actu_premiere a:hover{
+
+    background-color: rgb(233, 233, 233);
+    width: 102%;
+    box-shadow: 2px 2px 2px 2px rgba(43, 112, 89, 0.548);
+    opacity: 0.9;
+
+}
+
 
 
 .box_actus {
@@ -1279,3 +1493,137 @@ footer .copyright a:active {
     opacity: 0.9;
 
 }
+
+
+
+.actu_principale {
+    
+    background: linear-gradient(100deg, #7f53cf,rgb(46, 139, 86));
+    margin-top: 2%;  
+    width: auto;
+    height: fit-content;
+    padding: 2% 0%;
+   
+    
+}
+
+.text_baniere{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    text-align: center;
+    margin-top: 2%;  
+    width: auto;
+    margin: 0% 10%; 
+
+
+}
+
+
+
+.text_baniere img{
+
+    vertical-align: middle;
+    width: 100%
+
+}
+
+.droite_baniere{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    
+    
+}
+
+
+
+.bouton_baniere a{
+
+    border: 1px dotted ;
+    border-radius: 20px;
+    padding:0px 15px;
+    background-color: rgb(72, 150, 106);
+
+
+}
+
+.bouton_baniere a:hover{
+
+    background-color:#7952c0d7;
+
+}
+
+@media screen and (min-width: 1400px) {
+    
+    .bouton_baniere{
+
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-top:4%;
+        font-size: 1.4em;
+        
+    }
+
+    .actu_principale h1{
+
+        color: white;
+        font-size: 2.5em;
+    
+    }
+    
+  }
+  @media screen and (max-width: 1400px) {
+    
+    .bouton_baniere{
+
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 2%;
+        font-size: 1em;
+    
+        
+    
+    }
+
+    .actu_principale h1{
+
+        color: white;
+    
+    }
+
+  }
+
+
+
+
+
+.bouton_baniere .simulez, .bouton_baniere .engagement{
+
+    color: white;
+    width: auto;
+    
+
+}
+
+.les_dernières_actus {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+
+
