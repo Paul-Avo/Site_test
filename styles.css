@@ -1105,7 +1105,7 @@ footer .copyright a:active {
 
 }
 
-.distance, .date, .etat{
+.box_offres .distance, .date, .etat{
 
     display: flex;
     flex-direction: row;
@@ -1115,7 +1115,7 @@ footer .copyright a:active {
 
 }
 
-.caracteristiques{
+.box_offres .caracteristiques{
 
     display: flex;
     flex-direction: row;
@@ -1125,7 +1125,7 @@ footer .copyright a:active {
 
 }
 
-.caracteristiques p{
+.box_offres .caracteristiques p{
 
     font-size: 0.9em;
     color: rgb(0, 0, 0);
@@ -1134,14 +1134,14 @@ footer .copyright a:active {
 
 }
 
-.caracteristiques img{
+.box_offres .caracteristiques img{
 
     margin-right: 3%;
     max-width: 25px;
 
 }
 
-.prix {
+.box_offres .prix {
 
     font-size: 2em;
     color: rgb(0, 0, 0);
@@ -1151,7 +1151,7 @@ footer .copyright a:active {
 
 }
 
-.reduction {
+.box_offres .reduction {
 
     display: flex;
     justify-content: space-between;
@@ -1162,7 +1162,7 @@ footer .copyright a:active {
 
 @media screen and (min-width: 1000px) {
     
-    .prix_neuf {
+    .box_offres .prix_neuf {
 
         font-size: 1.4em;
         color: rgb(148, 148, 148);
@@ -1172,7 +1172,7 @@ footer .copyright a:active {
     
     }
 
-    .pourcentage {
+    .box_offres .pourcentage {
 
         font-size: 1.4em;
         color: rgb(87, 192, 131);
@@ -1187,7 +1187,7 @@ footer .copyright a:active {
 
   @media screen and (max-width: 1000px) {
     
-    .prix_neuf {
+    .box_offres .prix_neuf {
 
         font-size: 1.1em;
         color: rgb(148, 148, 148);
@@ -1197,7 +1197,7 @@ footer .copyright a:active {
     
     }
 
-    .pourcentage {
+    .box_offres .pourcentage {
 
         font-size: 1.3em;
         color: rgb(87, 192, 131);
@@ -1664,6 +1664,13 @@ footer .copyright a:active {
     align-items: center;
     align-content: center;
 
+}
+
+.photo_vente img{
+
+    width: 80%;
+    border-radius: 30px;
+
 
 }
 
@@ -1692,4 +1699,239 @@ footer .copyright a:active {
 
 }
 
+.bloc_vente{
 
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    margin-top: 50px;
+    justify-content: space-around;
+
+
+}
+
+.bloc_prix_vente_page_vente {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(148, 148, 148,0.05);
+    width: 550px;
+    border-radius: 20px;
+
+}
+
+.bloc_prix_vente_page_vente p{
+
+    margin-top: 10px;
+
+}
+
+.bloc_prix_vente_page_vente  .distance, .bloc_prix_vente_page_vente  .date, .bloc_prix_vente_page_vente  .etat{
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin-right: 5%;
+
+}
+
+.bloc_prix_vente_page_vente  .caracteristiques{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: fit-content;
+    margin: 0;
+
+}
+
+.bloc_prix_vente_page_vente  .caracteristiques p{
+
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+
+
+
+}
+
+.bloc_prix_vente_page_vente  .caracteristiques img{
+
+    margin-right: 3%;
+    max-width: 25px;
+
+}
+
+.bloc_prix_vente_page_vente  .prix {
+
+    font-size: 1.6em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-left: 15px;
+    font-weight: bold;
+
+
+}
+
+.bloc_prix_vente_page_vente  .reduction {
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 60px;
+    margin: 0;
+    width: 100%;
+
+}
+
+.bloc_prix_vente_page_vente h1{
+
+    margin: 5px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+
+}
+
+@media screen and (min-width: 1000px) {
+    
+    .bloc_prix_vente_page_vente  .prix_neuf {
+
+        font-size: 1.4em;
+        color: rgb(148, 148, 148);
+        text-align: left;
+        text-decoration: line-through;
+        padding-left: 5%;
+    
+    
+    }
+
+    .bloc_prix_vente_page_vente .pourcentage {
+
+        font-size: 1.6em;
+        color: rgb(87, 192, 131);
+        text-align: left;
+        padding-left: 5%;
+        font-weight: bold;
+    
+    }
+    
+
+  }
+
+  @media screen and (max-width: 1000px) {
+    
+    .bloc_prix_vente_page_vente  .prix_neuf {
+
+        font-size: 1.1em;
+        color: rgb(148, 148, 148);
+        text-align: left;
+        text-decoration: line-through;
+        padding-left: 5%;
+    
+    
+    }
+
+    .bloc_prix_vente_page_vente  .pourcentage {
+
+        font-size: 1.5em;
+        color: rgb(87, 192, 131);
+        text-align: left;
+        padding-left: 5%;
+        font-weight: bold;
+    
+    }
+    
+  }
+
+  .separateur_bloc_vente{
+
+    text-align: center;
+    margin: 0;
+    width: 70%;
+    height: 0px;
+    border: 1px dashed rgb(149, 154, 168,0.6)
+
+}
+
+.sous_bloc_vente{
+
+    width: 320px;
+
+
+}
+
+.bouton_bloc_vente{
+
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.jaime{
+
+    margin: 10px;
+
+}
+
+.jaime a{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(46, 139, 87,0.1);
+    border:1px solid black;
+    border-radius: 30px;
+    color: black;
+
+}
+
+.jaime img{
+
+   width: auto;
+   height: 25px;
+
+}
+
+.jaime p{
+
+    padding-top: 5px;
+
+}
+
+.jaime a:hover {
+
+    background-color: slategray;
+    border:1px solid slategray;
+
+}
+
+
+.ajouter_panier a p{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(46, 139, 87);
+    border:1px solid black;
+    border-radius: 30px;
+    color: whitesmoke;
+        
+}
+
+.ajouter_panier a p:hover{
+
+    background-color: #7f53cf;
+
+}
