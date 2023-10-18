@@ -1684,8 +1684,15 @@ footer .copyright a:active {
     border-radius: 100px;
     width: 40px;
     height: 40px;
-    background-color: rgb(148, 148, 148,0.1);
+    background-color: rgba(211, 211, 211, 0.1);
     
+    
+
+}
+
+.photo_vente .bouton_droite:hover,.photo_vente .bouton_gauche:hover{
+
+    background-color: rgba(95, 179, 138, 0.26);
     
 
 }
@@ -1693,9 +1700,6 @@ footer .copyright a:active {
 .photo_vente .bouton_droite {
 
     float: left;
-
-    
-
 
 }
 
@@ -1859,8 +1863,15 @@ footer .copyright a:active {
 .sous_bloc_vente{
 
     width: 320px;
+    font-size: 0.9em;
 
 
+}
+
+.sous_bloc_vente h2 {
+
+    margin-bottom: 10px;
+    font-size: 1.3em;
 }
 
 .bouton_bloc_vente{
@@ -1870,6 +1881,7 @@ footer .copyright a:active {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin: 5px;
 
 
 }
@@ -1922,11 +1934,12 @@ footer .copyright a:active {
     align-items: center;
     justify-content: center;
     width: 200px;
-    height: 40px;
+    height: 45px;
     background-color: rgb(46, 139, 87);
     border:1px solid black;
     border-radius: 30px;
     color: whitesmoke;
+    font-size: 1.05em;
         
 }
 
@@ -1934,4 +1947,77 @@ footer .copyright a:active {
 
     background-color: #7f53cf;
 
+}
+
+.caracteristiques_vente{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+
+}
+
+.arriere_caracteristiques_vente {
+
+    background-color: rgb(175, 175, 175,0.1);
+    border-radius: 20px;
+
+
+}
+
+.caracteristiques_vente h2, .caracteristique_vente_titre, .caracteristiques_vente_titre {
+
+    font-weight:bold;
+    
+}
+
+.caracteristiques_vente_titre{
+
+    padding: 20px 0px 0px 20px;
+
+}
+
+.constructeur {
+
+    margin:0px 40px ;
+    display: flex;
+    flex-direction: column;
+    /*width: 80%; /*utile si on passe en flex row*/
+
+}
+
+.box_constructeur_tot{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+
+}
+
+.box_constructeur_tot {
+
+    font-size: 1.1em;
+    text-decoration: none;
+
+}
+
+.box_constructeur_tot ul{
+
+    list-style-type: none;
+    margin-left: -12%;
+
+}
+
+.type_caracteristiques{
+
+    color: rgba(0, 0, 0, 0.493);
+
+}
+
+.separateur_caracteristiques_vente{
+
+
+    
 }
