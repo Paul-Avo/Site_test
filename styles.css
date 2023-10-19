@@ -1854,7 +1854,7 @@ footer .copyright a:active {
 
     text-align: center;
     margin: 0;
-    width: 70%;
+    width: 60%;
     height: 0px;
     border: 1px dashed rgb(149, 154, 168,0.6)
 
@@ -1863,7 +1863,7 @@ footer .copyright a:active {
 .sous_bloc_vente{
 
     width: 320px;
-    font-size: 0.9em;
+    font-size: 1.05em;
 
 
 }
@@ -1949,6 +1949,71 @@ footer .copyright a:active {
 
 }
 
+.avantages_trottinette{
+
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-top:70px;
+    margin-bottom: 50px;
+    padding-bottom: 1%;
+    height: auto;
+    background-color: rgba(83, 207, 170, 0.055);
+    border-radius: 8px;    
+
+}
+.avantages_trottinette h1{
+
+    padding-left: 2%;
+    margin-bottom: 10px;
+
+}
+
+.description_avantages{
+
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+    
+    
+
+}
+
+.description_avantages p{
+
+    width: 50%;
+
+}
+
+.description_avantages ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding:0% 15%;
+    overflow: hidden;
+
+}
+
+.description_avantages ul li{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+    
+
+}
+
+.description_avantages ul li img{
+
+    height: 15px;
+    margin-right: 10px;
+
+}
+
+
 .caracteristiques_vente{
 
     display: flex;
@@ -1959,8 +2024,9 @@ footer .copyright a:active {
 
 .arriere_caracteristiques_vente {
 
-    background-color: rgb(175, 175, 175,0.1);
+    background-color: rgba(211, 211, 211, 0.1);
     border-radius: 20px;
+    padding-bottom: 30px;
 
 
 }
@@ -1974,6 +2040,7 @@ footer .copyright a:active {
 .caracteristiques_vente_titre{
 
     padding: 20px 0px 0px 20px;
+    color: rgba(0, 0, 0, 0.658);
 
 }
 
@@ -1986,27 +2053,44 @@ footer .copyright a:active {
 
 }
 
+.constructeur h2 {
+
+    text-align: center;
+
+
+}
+
 .box_constructeur_tot{
 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: auto;
+    font-size: 1.1em;
+    text-decoration: none;
 
 }
 
-.box_constructeur_tot {
+.box_constructeur_tot h3{
 
-    font-size: 1.1em;
-    text-decoration: none;
+    text-align: center;
+    font-size: 1.7em;
+   
 
 }
 
 .box_constructeur_tot ul{
 
     list-style-type: none;
-    margin-left: -12%;
+    margin: 0;
+    padding:0% 15%;
+    overflow: hidden;
+
+}
+
+.box_constructeur {
+
+    width: 80%;    
 
 }
 
@@ -2018,6 +2102,121 @@ footer .copyright a:active {
 
 .separateur_caracteristiques_vente{
 
+    width: auto;
+    height: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    margin: 5% 10%
 
+}
+
+.modifications_apportees{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.modifications_apportees ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding:0% 15%;
+    overflow: hidden;
+
+
+}
+
+.fond_baniere_vente{
+
+    background-color: #b1dbc7a1;
+
+}
+
+.baniere_vente {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content:space-around;
+    padding-top: 50px ;
+    height: 300px;
+    width: auto;
+    margin: 0px 3%;
+    padding-bottom: 50px;
+
+}
+
+.baniere_vente .idee_baniere_vente img{
+
+    width: 150px;
+
+
+}
+
+.baniere_vente .idee_baniere_vente{
+
+    width: 33%;
+
+}
+
+
+.avis_clients{
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 50px 0px;
+}
+
+
+.avis {
+
+    height: auto ;
+    width: 22.5%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(51, 51, 51, 0.548);
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+
+}
+
+.avis img{
+
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0% 0%;
+
+}
+
+.avis p{
+
+    font-size: 0.8em;
+    font-family:Arial, Helvetica, sans-serif;
     
+}
+
+.avis h3{
+
+    display: table-cell;
+    vertical-align:middle;
+    font-weight: bold;
+    font-size: 0.95em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(46, 68, 63, 0.6);
+    height: 100px;
+    padding: 1px 2px 1px 2px;
+
+}
+.avis:hover{
+
+    background-color: rgb(233, 233, 233);
+    width: 24%;
+    box-shadow: 2px 2px 2px 2px rgba(43, 112, 89, 0.548);
+    opacity: 0.9;
+
 }
