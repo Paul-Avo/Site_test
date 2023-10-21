@@ -2292,6 +2292,7 @@ a:focus .box_offres {
     justify-content: space-around;
     width: auto;
     margin: 50px ;
+    margin-bottom: 0;
 
 
 }
@@ -2328,3 +2329,177 @@ a:focus .box_offres {
     color: rgba(0, 0, 0, 0.473);
 
 }
+
+/*boutique ////////////////////////////////////////////////////////////////////////////*/
+
+.main_boutique{
+
+    width: auto;
+    margin: 2%;
+
+}
+
+.intro_boutique{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0px;
+
+}
+
+.description_boutique{
+
+    display: flex;
+    flex-direction: column;
+    padding: 0% 5%;
+    
+}
+
+.description_boutique h1{
+
+    margin: 0;
+    font-size: 3em;
+    
+}
+
+.restez_informe{
+
+    width: auto;
+    padding:0% 2%;
+    padding-bottom: 2%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color:#f4f8f6;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-right: 5%;
+    max-width: 250px;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+.restez_informe a p{
+
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: whitesmoke;
+    font-size: 1.08em;
+    width: auto;
+    margin:0% 10%;
+    padding: 2% 5%;
+    background-color: seagreen;
+    margin-top: 40px;
+    
+
+}
+
+
+
+.partie_vente{
+
+    display: flex;
+    
+
+}
+
+.choix_de_la_trottinette{
+
+    
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    height: 500px;
+    position:sticky;
+    top:0px;
+    left:0px;
+    
+
+}
+
+.separateur_propriete{
+
+    width: 90%;
+    height: 0px;
+    border: 1px solid black;
+
+}
+
+.propriete_vente{
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+
+}
+
+.magasin {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+
+}
+
+.rayon_trot .les_dernières_offres {
+
+    margin: 0;
+
+
+}
+
+.rayon_trot .les_dernières_offres h1 {
+
+    margin: 20px;
+
+}
+
+.choix_magasin {
+
+    width: fit-content;
+    background-color: rgba(245, 245, 245, 0.644);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+    font-size: 1.2em;
+
+}
+
+
+.choix_magasin a{
+
+    color: rgb(41, 41, 41);
+    
+
+}
+
+.choix_magasin a:hover{
+
+    color: rgb(41, 41, 41);
+    transform: scale(103%);
+    transition:all 0.1s ease;
+    /*font-weight: bold;*/
+
+}
+
+.box_offres_boutique{
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 150px;
+
+}
+
